@@ -15,6 +15,7 @@ public class CadastroRestauranteService {
 	@Autowired
 	private RestauranteRepository restauranteRepository;
 	
+	@Autowired
 	private CozinhaRepository cozinhaRepository;
 	
 	public Restaurante salvar(Restaurante restaurante) {
